@@ -15,7 +15,7 @@ mongoose.connection.on('connected', () =>{
 });
 
 //on error
-mongoose.connection.on('error', () =>{
+mongoose.connection.on('error', (err) =>{
     console.log('Connetion Error' + err);
 });
 

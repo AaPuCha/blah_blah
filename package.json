@@ -1,0 +1,30 @@
+{
+  "name": "blah_blah",
+  "version": "1.0.0",
+  "description": "Debate App",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start":"node app"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AaPuCha/blah_blah.git"
+  },
+  "dependencies": {
+    "express":"*",
+    "mongoose":"*",
+    "bcryptjs":"*",
+    "cors":"*",
+    "jsonwebtoken":"*",
+    "body-parser":"*",
+    "passport":"*",
+    "passport-jwt":"*"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AaPuCha/blah_blah/issues"
+  },
+  "homepage": "https://github.com/AaPuCha/blah_blah#readme"
+}
